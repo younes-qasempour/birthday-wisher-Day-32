@@ -4,7 +4,7 @@ import datetime as dt
 import random
 
 
-RECEIVER_ADDRESS = "neda22dehghan@gmail.com"
+RECEIVER_ADDRESS = ""
 DAY_OF_WEEK = dt.datetime.now().weekday()
 
 if DAY_OF_WEEK == 0:
