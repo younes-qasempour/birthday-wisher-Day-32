@@ -19,5 +19,6 @@ if DAY_OF_WEEK == 0:
         connection.sendmail(
             from_addr=my_email,
             to_addrs=RECEIVER_ADDRESS,
-            msg=f"Subject:Hello Darling\n\n{quote}"
+            msg=f"Subject:Monday Motivation\n\n"
+                f"{quote}"
         )
